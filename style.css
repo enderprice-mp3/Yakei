@@ -1,0 +1,147 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: #0A0A0A;
+  color: #FFFFFF;
+  line-height: 1.6;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(145deg, #0A0A0A, #1E1E2F);
+}
+
+.logo {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3rem;
+  color: #B983FF;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #6EC1E4;
+  margin-bottom: 40px;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.stats div {
+  text-align: center;
+}
+
+.stats strong {
+  font-size: 1.5rem;
+  color: #B983FF;
+}
+
+.stats span {
+  display: block;
+  font-size: 0.9rem;
+  color: #AAA;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 30px;
+  background: #B983FF;
+  color: #0A0A0A;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background: #6EC1E4;
+}
+
+.scroll-indicator {
+  font-size: 2rem;
+  color: #555;
+  margin-top: 40px;
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(8px); }
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.about, .services, .demo {
+  border-top: 1px solid #222;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #B983FF;
+}
+
+.services ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.services li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.demo form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.demo input {
+  padding: 15px;
+  background: #1A1A1A;
+  border: 1px solid #333;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.demo button {
+  padding: 15px;
+  border: none;
+  background: #6EC1E4;
+  color: #000;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.demo button:hover {
+  background: #B983FF;
+  color: #0A0A0A;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  font-size: 0.9rem;
+  color: #777;
+  border-top: 1px solid #222;
+}
